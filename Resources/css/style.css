@@ -195,6 +195,10 @@ header {
   border: 1px solid #00008b;
 }
 
+.margin-left {
+  margin-left: 75px;
+}
+
 .Sobrenos__class {
   background-color: #fff;
 }
