@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../img/glasses_store.jpg);
@@ -60,13 +59,13 @@ header {
   list-style-type: none;
   display: inline-block;
   padding: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .nav__bar--link {
   text-decoration: none;
   color: black;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .nav__bar--link:hover {
@@ -81,7 +80,7 @@ header {
   color: black;
   font-size: 16px;
   border: none;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -96,7 +95,7 @@ header {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -106,14 +105,18 @@ header {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
@@ -134,7 +137,7 @@ header {
   color: white;
   float: right;
   margin-right: 250px;
-  margin-top: 200px;
+  margin-top: 150px;
   font-family: "Playfair Display", serif;
 }
 
@@ -149,7 +152,7 @@ header {
   color: #fff;
   text-align: left;
   margin-left: 25px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .main__page--subtitle {
@@ -158,7 +161,7 @@ header {
   color: #fff;
   margin-top: 15px;
   margin-left: 65px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .button {
@@ -203,11 +206,11 @@ header {
   background-color: #fff;
 }
 
-.Sobrenos__title{
+.Sobrenos__title {
   margin-top: 100px;
   margin-bottom: 50px;
   font-size: 300%;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .Sobrenos__title:hover {
@@ -225,9 +228,9 @@ header {
     url(../img/oculos.jpg);
   background-size: cover;
   background-position: center;
-  margin: 0 450px;
+  margin: 0 300px;
   padding: 15px;
-  box-shadow: 5px 5px 14px 2px rgba(0,0,0,0.7);
+  box-shadow: 5px 5px 14px 2px rgba(0, 0, 0, 0.7);
 }
 
 .Sobrenos__mainparagragh {
@@ -247,7 +250,7 @@ header {
   margin-top: 100px;
   margin-bottom: 50px;
   font-size: 300%;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .Acordos__title:hover {
@@ -277,13 +280,13 @@ header {
   height: 300px;
   font-size: 30px;
   display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Atualizacoes__title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-top: 100px;
   margin-bottom: 50px;
   font-size: 300%;
@@ -300,13 +303,11 @@ header {
   box-shadow: 5px 5px 15px 5px #000000;
 }
 
-
 .Atualizacoes__img__container--solo img {
   margin: 0 auto;
   display: block;
   box-shadow: 5px 5px 15px 5px #000000;
 }
-
 
 .paragragh__container {
   margin: 50px 75px;
@@ -345,7 +346,7 @@ p {
 }
 
 .testemunhos__title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-top: 25px;
   margin-bottom: 50px;
   font-size: 300%;
@@ -387,7 +388,7 @@ p {
 
 .carousel-item img {
   margin-bottom: 100px;
-  box-shadow: 5px 5px 7px 2px rgba(0,0,0,0.6);
+  box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.6);
 }
 
 .carousel-item {
@@ -417,7 +418,7 @@ p {
 }
 
 .galeria__title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   padding: 50px;
   padding-top: 70px;
   font-size: 300%;
@@ -429,7 +430,7 @@ p {
 }
 
 .contactos__title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   padding: 50px;
   padding-top: 70px;
   font-size: 300%;
