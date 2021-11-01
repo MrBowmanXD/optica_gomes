@@ -11,7 +11,6 @@ header {
   background-position: center;
   height: 85vh;
   margin-top: 100px;
-  margin-bottom: 20px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -454,6 +453,18 @@ p {
   margin-left: 100px;
 }
 
+.right {
+  text-align: right;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.formulario__class {
+  background-color: #e0e0e0;
+  margin-bottom: 0;
+}
+
 .footer {
   background-color: #333;
   padding: 50px;
@@ -506,4 +517,8 @@ footer p {
 
 .margin__top--large {
   margin-top: 75px !important;
+}
+
+.border-none {
+  border: none;
 }
