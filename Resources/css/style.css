@@ -136,11 +136,15 @@ header {
   color: white;
   float: right;
   margin-right: 250px;
-  margin-top: 150px;
+  margin-top: 135px;
   font-family: "Playfair Display", serif;
 }
 
-.alternative__main__page p {
+.alternative__main__page h2 {
+  font-size: 36px;
+}
+
+#typed {
   font-size: 25px;
 }
 
