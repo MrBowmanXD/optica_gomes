@@ -246,7 +246,7 @@ header {
 }
 
 .Acordos__class {
-  background-color: #e0e0e0;
+  background-color: #f4f4f4;
 }
 
 .Acordos__title {
@@ -386,7 +386,7 @@ p {
 }
 
 .galeria__class {
-  background-color: #e0e0e0;
+  background-color: #f4f4f4;
 }
 
 .carousel-item img {
@@ -432,6 +432,10 @@ p {
   transition: all 0.2s;
 }
 
+.carousel-control-next-icon {
+  color: black;
+}
+
 .contactos__title {
   font-family: "Playfair Display", serif;
   padding: 50px;
@@ -465,7 +469,7 @@ p {
 }
 
 .formulario__class {
-  background-color: #e0e0e0;
+  background-color: #f4f4f4;
   margin-bottom: 0;
 }
 
