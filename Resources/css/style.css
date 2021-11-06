@@ -4,15 +4,19 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../img/glasses_store.jpg);
   background-size: cover;
   background-position: center;
   height: 85vh;
-  margin-top: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .overlay {
@@ -22,7 +26,7 @@ header {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(0.4rem);
   z-index: 100;
   transition: all 0.5s;
 }
@@ -33,15 +37,15 @@ header {
   left: 0;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 2px 2px #efefef;
+  box-shadow: 0 0.2rem 0.2rem #efefef;
   z-index: 100;
 }
 
 .nav__bar__container img {
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin-top: 5px;
+  width: 5rem;
+  height: 5rem;
+  margin-top: 0.5rem;
 }
 
 .left {
@@ -50,14 +54,14 @@ header {
 
 .nav__bar__container {
   text-align: right;
-  margin: 5px;
+  margin: 0.5rem;
   z-index: 1;
 }
 
 .nav__bar--item {
   list-style-type: none;
   display: inline-block;
-  padding: 20px;
+  padding: 2rem;
   font-family: "Playfair Display", serif;
 }
 
@@ -69,7 +73,7 @@ header {
 
 .nav__bar--link:hover {
   color: blue;
-  border-bottom: 1px solid blue;
+  border-bottom: 0.1rem solid blue;
   transition: all 0.5s;
 }
 /* Dropdown menu in Serviços */
@@ -77,7 +81,7 @@ header {
 .dropbtn {
   background-color: white;
   color: black;
-  font-size: 16px;
+  font-size: 1.6rem;
   border: none;
   font-family: "Playfair Display", serif;
 }
@@ -93,15 +97,15 @@ header {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  min-width: 16rem;
+  box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 1.2rem 1.6rem;
   text-decoration: none;
   display: block;
   font-family: "Playfair Display", serif;
@@ -120,63 +124,83 @@ header {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: white;
-  border-bottom: 1px solid blue;
+  border-bottom: 0.1rem solid blue;
   color: blue;
 }
 
+.row-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .main__page {
-  position: absolute;
-  width: 1140px;
-  top: 50%;
+  /* position: absolute; */
+  /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  */
+  padding: 5rem;
+  margin-top: 13.5rem;
+}
+
+.col-flex-full {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.col-flex {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
 
 .alternative__main__page {
+  /* float: right;*/
   color: white;
-  float: right;
-  margin-right: 250px;
-  margin-top: 135px;
+  margin-right: 25rem;
+  margin-top: 11rem;
   font-family: "Playfair Display", serif;
 }
 
 .alternative__main__page h2 {
-  font-size: 36px;
+  font-size: 3.6rem;
 }
 
 #typed {
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 .main__page--title {
   text-transform: uppercase;
-  word-spacing: 4px;
+  word-spacing: 0.4rem;
   font-size: 240%;
   color: #fff;
-  text-align: left;
-  margin-left: 25px;
+  margin-bottom: 2.5rem;
   font-family: "Playfair Display", serif;
 }
 
 .main__page--subtitle {
   font-size: 160%;
-  word-spacing: 2px;
+  word-spacing: 0.2rem;
   color: #fff;
-  margin-top: 15px;
-  margin-left: 65px;
   font-family: "Playfair Display", serif;
 }
 
 .button {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 1rem 3rem;
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: 5rem;
 }
 
 .button__position {
-  margin-left: 10px;
-  margin-top: 15px;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
 }
 
 .button-full {
@@ -187,7 +211,7 @@ header {
 .button-ghost {
   background-color: transparent;
   color: white;
-  border: 1px solid blue;
+  border: 0.1rem solid blue;
 }
 
 .button-full:hover {
@@ -198,11 +222,11 @@ header {
 .button-ghost:hover {
   background-color: #00008b;
   color: white;
-  border: 1px solid #00008b;
+  border: 0.1rem solid #00008b;
 }
 
 .margin-left {
-  margin-left: 75px;
+  margin-left: 7.5rem;
 }
 
 .Sobrenos__class {
@@ -210,8 +234,8 @@ header {
 }
 
 .Sobrenos__title {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
   font-size: 300%;
   font-family: "Playfair Display", serif;
 }
@@ -223,7 +247,7 @@ header {
 
 .img__container--medium img {
   width: 45vw;
-  margin-left: 50px;
+  margin-left: 5rem;
 }
 
 .p__container {
@@ -231,16 +255,16 @@ header {
     url(../img/oculos.jpg);
   background-size: cover;
   background-position: center;
-  margin: 0 300px;
-  padding: 15px;
-  box-shadow: 5px 5px 14px 2px rgba(0, 0, 0, 0.7);
+  margin: 0 30rem;
+  padding: 1.5rem;
+  box-shadow: 0.5rem 0.5rem 1.4rem 0.2rem rgba(0, 0, 0, 0.7);
 }
 
 .Sobrenos__mainparagragh {
   color: #f8f8ff;
   font-family: "Lato", sans-serif;
-  font-size: 25px;
-  margin: 0 100px;
+  font-size: 2.5rem;
+  margin: 0 10rem;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -250,8 +274,8 @@ header {
 }
 
 .Acordos__title {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
   font-size: 300%;
   font-family: "Playfair Display", serif;
 }
@@ -264,24 +288,24 @@ header {
 .grid__container {
   object-fit: cover;
   display: grid;
-  grid-template-rows: repeat(2, 300px);
-  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 30rem);
+  grid-template-columns: repeat(3, 30rem);
   justify-content: center;
-  grid-gap: 25px;
+  grid-gap: 2.5rem;
 }
 
 .grid__container img {
-  width: 300px;
-  height: 300px;
+  width: 30rem;
+  height: 30rem;
 }
 
 .Acordos__paragragh {
   font-family: "Lato", sans-serif;
   margin: 0 auto;
   background-color: #fff;
-  width: 300px;
-  height: 300px;
-  font-size: 30px;
+  width: 30rem;
+  height: 30rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -290,8 +314,8 @@ header {
 
 .Atualizacoes__title {
   font-family: "Playfair Display", serif;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
   font-size: 300%;
 }
 
@@ -301,28 +325,28 @@ header {
 }
 
 .Atualizacoes__img__container img {
-  height: 500px;
-  width: 500px;
-  box-shadow: 5px 5px 15px 5px #000000;
+  height: 50rem;
+  width: 50rem;
+  box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem #000000;
 }
 
 .Atualizacoes__img__container--solo img {
   margin: 0 auto;
   display: block;
-  box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem #000000;
 }
 
 .paragragh__container {
-  margin: 50px 75px;
+  margin: 5rem 7.5rem;
 }
 
 .paragragh__container--normas {
-  margin: 50px 25px;
+  margin: 5rem 2.5rem;
 }
 
 .paragragh__container--normas p {
   font-family: "Lato", sans-serif;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 .center {
@@ -331,13 +355,13 @@ header {
 }
 
 .margin__bottom--medium {
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
 }
 
 .icon-default {
   font-size: 350%;
   color: blue;
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
 }
 
 p {
@@ -345,13 +369,13 @@ p {
 }
 
 .margin__bottom--large {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .testemunhos__title {
   font-family: "Playfair Display", serif;
-  margin-top: 25px;
-  margin-bottom: 50px;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
   font-size: 300%;
   color: white;
 }
@@ -368,7 +392,7 @@ p {
   background-position: center;
   height: 100%;
   background-attachment: fixed;
-  padding: 25px;
+  padding: 2.5rem;
 }
 
 .color-white {
@@ -379,10 +403,10 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50px;
+  width: 5rem;
   border-radius: 50%;
-  height: 50px;
-  margin-bottom: 15px;
+  height: 5rem;
+  margin-bottom: 1.5rem;
 }
 
 .galeria__class {
@@ -390,8 +414,8 @@ p {
 }
 
 .carousel-item img {
-  margin-bottom: 100px;
-  box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.6);
+  margin-bottom: 10rem;
+  box-shadow: 0.5rem 0.5rem 0.7rem 0.2rem rgba(0, 0, 0, 0.6);
 }
 
 .carousel-item {
@@ -422,8 +446,8 @@ p {
 
 .galeria__title {
   font-family: "Playfair Display", serif;
-  padding: 50px;
-  padding-top: 70px;
+  padding: 5rem;
+  padding-top: 7rem;
   font-size: 300%;
 }
 
@@ -438,8 +462,8 @@ p {
 
 .contactos__title {
   font-family: "Playfair Display", serif;
-  padding: 50px;
-  padding-top: 70px;
+  padding: 5rem;
+  padding-top: 7rem;
   font-size: 300%;
 }
 
@@ -457,15 +481,15 @@ p {
 
 .contactos__info {
   font-family: "Lato", sans-serif;
-  margin-top: 50px;
-  margin-left: 100px;
+  margin-top: 5rem;
+  margin-left: 10rem;
 }
 
 .right {
   text-align: right;
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .formulario__class {
@@ -475,13 +499,13 @@ p {
 
 .footer {
   background-color: #333;
-  padding: 50px;
+  padding: 5rem;
 }
 
 .footer-nav li,
 .social-links li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 
 .footer-nav li:last-child,
@@ -507,12 +531,12 @@ p {
 footer p {
   color: #ddd;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .footer-nav img {
-  width: 25px;
-  height: 25px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .display--block {
@@ -524,7 +548,7 @@ footer p {
 }
 
 .margin__top--large {
-  margin-top: 75px !important;
+  margin-top: 7.5rem !important;
 }
 
 .border-none {
