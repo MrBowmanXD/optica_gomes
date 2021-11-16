@@ -68,6 +68,7 @@ header {
 .nav__bar--link {
   text-decoration: none;
   color: black;
+  font-size: 1.5rem;
   font-family: "Playfair Display", serif;
 }
 
@@ -178,14 +179,14 @@ header {
 .main__page--title {
   text-transform: uppercase;
   word-spacing: 0.4rem;
-  font-size: 240%;
+  font-size: 3.6rem;
   color: #fff;
   margin-bottom: 2.5rem;
   font-family: "Playfair Display", serif;
 }
 
 .main__page--subtitle {
-  font-size: 160%;
+  font-size: 2.5rem;
   word-spacing: 0.2rem;
   color: #fff;
   font-family: "Playfair Display", serif;
@@ -196,6 +197,10 @@ header {
   padding: 1rem 3rem;
   text-decoration: none;
   border-radius: 5rem;
+}
+
+.button i {
+  font-size: 2rem;
 }
 
 .button__position {
@@ -331,6 +336,8 @@ header {
 }
 
 .Atualizacoes__img__container--solo img {
+  height: 50rem;
+  width: 50rem;
   margin: 0 auto;
   display: block;
   box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem #000000;
@@ -345,6 +352,7 @@ header {
 }
 
 .paragragh__container--normas p {
+  text-align: center;
   font-family: "Lato", sans-serif;
   font-size: 2.5rem;
 }
@@ -393,6 +401,10 @@ p {
   height: 100%;
   background-attachment: fixed;
   padding: 2.5rem;
+}
+
+.paragragh__container p {
+  font-size: 1.5rem;
 }
 
 .color-white {
@@ -485,6 +497,10 @@ p {
   margin-left: 10rem;
 }
 
+.contactos__info p {
+  font-size: 1.5rem;
+}
+
 .right {
   text-align: right;
   font-family: "Lato", sans-serif;
@@ -495,6 +511,18 @@ p {
 .formulario__class {
   background-color: #f4f4f4;
   margin-bottom: 0;
+}
+
+.col label {
+  font-size: 1.8rem;
+}
+
+.col input {
+  font-size: 1.8rem;
+}
+
+.col textarea {
+  font-size: 1.8rem;
 }
 
 .footer {
@@ -537,6 +565,10 @@ footer p {
 .footer-nav img {
   width: 2.5rem;
   height: 2.5rem;
+}
+
+.footer-nav li a {
+  font-size: 1.8rem;
 }
 
 .display--block {
