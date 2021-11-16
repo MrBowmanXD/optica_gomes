@@ -73,8 +73,8 @@ header {
 }
 
 .nav__bar--link:hover {
-  color: blue;
-  border-bottom: 0.1rem solid blue;
+  color: rgb(78, 135, 140);
+  border-bottom: 0.1rem solid rgb(78, 135, 140);
   transition: all 0.5s;
 }
 /* Dropdown menu in Serviços */
@@ -209,25 +209,25 @@ header {
 }
 
 .button-full {
-  background-color: blue;
+  background-color: rgb(78, 135, 140);
   color: #fff;
 }
 
 .button-ghost {
   background-color: transparent;
   color: white;
-  border: 0.1rem solid blue;
+  border: 0.1rem solid rgb(78, 135, 140);
 }
 
 .button-full:hover {
-  background-color: #00008b;
+  background-color: #65b891;
   color: white;
 }
 
 .button-ghost:hover {
-  background-color: #00008b;
+  background-color: #65b891;
   color: white;
-  border: 0.1rem solid #00008b;
+  border: 0.1rem solid #65b891;
 }
 
 .margin-left {
@@ -246,7 +246,7 @@ header {
 }
 
 .Sobrenos__title:hover {
-  color: blue;
+  color: #65b891;
   transition: all 0.2s;
 }
 
@@ -275,10 +275,11 @@ header {
 }
 
 .Acordos__class {
-  background-color: #f4f4f4;
+  background-color: #4e878c;
 }
 
 .Acordos__title {
+  color: #fff;
   margin-top: 10rem;
   margin-bottom: 5rem;
   font-size: 300%;
@@ -286,7 +287,7 @@ header {
 }
 
 .Acordos__title:hover {
-  color: blue;
+  color: #65b891;
   transition: all 0.2s;
 }
 
@@ -325,7 +326,7 @@ header {
 }
 
 .Atualizacoes__title:hover {
-  color: blue;
+  color: #65b891;
   transition: all 0.2s;
 }
 
@@ -389,7 +390,7 @@ p {
 }
 
 .testemunhos__title:hover {
-  color: blue;
+  color: #65b891;
   transition: all 0.2s;
 }
 
@@ -422,7 +423,7 @@ p {
 }
 
 .galeria__class {
-  background-color: #f4f4f4;
+  background-color: #4e878c;
 }
 
 .carousel-item img {
@@ -457,6 +458,7 @@ p {
 }
 
 .galeria__title {
+  color: #fff;
   font-family: "Playfair Display", serif;
   padding: 5rem;
   padding-top: 7rem;
@@ -464,7 +466,7 @@ p {
 }
 
 .galeria__title:hover {
-  color: blue;
+  color: #65b891;
   transition: all 0.2s;
 }
 
@@ -480,7 +482,7 @@ p {
 }
 
 .contactos__title:hover {
-  color: blue;
+  color: #65b891;
   transition: all 0.2s;
 }
 
@@ -509,12 +511,13 @@ p {
 }
 
 .formulario__class {
-  background-color: #f4f4f4;
+  background-color: #93e5ab;
   margin-bottom: 0;
 }
 
 .col label {
   font-size: 1.8rem;
+  color: #fff;
 }
 
 .col input {
@@ -523,6 +526,10 @@ p {
 
 .col textarea {
   font-size: 1.8rem;
+}
+
+.white {
+  color: #fff;
 }
 
 .footer {
@@ -585,4 +592,23 @@ footer p {
 
 .border-none {
   border: none;
+}
+
+@media (max-width: 575.98px) {
+  ...;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  ...;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  ...;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  ...;
 }
