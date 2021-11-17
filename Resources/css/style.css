@@ -532,6 +532,19 @@ p {
   color: #fff;
 }
 
+.right-icon {
+  text-align: right;
+}
+
+.icon__big {
+  font-size: 4rem;
+  color: black;
+}
+
+.icon__big:hover {
+  color: #93e5ab;
+}
+
 .footer {
   background-color: #333;
   padding: 5rem;
@@ -595,12 +608,23 @@ footer p {
 }
 
 @media (max-width: 575.98px) {
-  ...;
+  .nav__bar--item {
+    display: none;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  ...;
+  html {
+    font-size: 50%;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+  [class*="col"] {
+    width: 100%;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -610,5 +634,7 @@ footer p {
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-  ...;
+  html {
+    font-size: 56.25%;
+  }
 }
