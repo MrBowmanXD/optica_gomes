@@ -36,7 +36,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #b5ffe1;
   box-shadow: 0 0.2rem 0.2rem #efefef;
   z-index: 100;
 }
@@ -546,7 +546,7 @@ p {
 }
 
 .footer {
-  background-color: #333;
+  background-color: #b5ffe1;
   padding: 5rem;
 }
 
@@ -573,7 +573,7 @@ p {
 
 .footer-nav li a:hover,
 .footer-nav li a:active {
-  color: #ddd;
+  color: black;
 }
 
 footer p {
