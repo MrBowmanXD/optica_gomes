@@ -546,7 +546,7 @@ p {
 }
 
 .footer {
-  background-color: #b5ffe1;
+  background-color: #4e878c;
   padding: 5rem;
 }
 
@@ -567,13 +567,13 @@ p {
 .social-links li a:visited {
   text-decoration: none;
   border: 0;
-  color: #888;
+  color: black;
   transition: color 0.2s;
 }
 
 .footer-nav li a:hover,
 .footer-nav li a:active {
-  color: black;
+  color: #fff;
 }
 
 footer p {
