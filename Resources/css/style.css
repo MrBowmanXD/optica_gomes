@@ -404,6 +404,11 @@ p {
   padding: 2.5rem;
 }
 
+.testemunhos__set--container {
+  padding: 2rem;
+  text-align: center;
+}
+
 .paragragh__container p {
   font-size: 1.5rem;
 }
@@ -611,6 +616,10 @@ footer p {
   .nav__bar--item {
     display: none;
   }
+}
+
+.fa-star {
+  color: yellow;
 }
 
 /* Small devices (landscape phones, less than 768px) */
