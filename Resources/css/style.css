@@ -427,6 +427,14 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.card-title {
+  font-size: 2rem;
+}
+
+.card-subtitle {
+  font-size: 1.5rem;
+}
+
 .galeria__class {
   background-color: #4e878c;
 }
@@ -531,6 +539,54 @@ p {
 
 .col textarea {
   font-size: 1.8rem;
+}
+
+
+.label {
+  display: block;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  font-size: 1.6rem;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  width: 50%;
+}
+
+textarea {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  font-size: 2rem;
+  width: 25%;
+}
+
+.form-label {
+  font-size: 2rem;
 }
 
 .white {
@@ -638,7 +694,7 @@ footer p {
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  ...;
+  
 }
 
 /* Large devices (desktops, less than 1200px) */
