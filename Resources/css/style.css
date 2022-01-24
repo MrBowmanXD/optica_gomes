@@ -77,6 +77,10 @@ header {
   border-bottom: 0.1rem solid rgb(78, 135, 140);
   transition: all 0.5s;
 }
+
+#navbarToggleExternalContent {
+  display: none;
+}
 /* Dropdown menu in Serviços */
 
 .dropbtn {
@@ -197,6 +201,7 @@ header {
   padding: 1rem 3rem;
   text-decoration: none;
   border-radius: 5rem;
+  border: none;
 }
 
 .button i {
@@ -331,6 +336,8 @@ header {
 }
 
 .Atualizacoes__img__container img {
+  display: block;
+  margin: 0 auto;
   height: 50rem;
   width: 50rem;
   box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem #000000;
@@ -424,6 +431,12 @@ p {
   width: 5rem;
   border-radius: 50%;
   height: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  margin: 0 auto;
+  display: block;
   margin-bottom: 1.5rem;
 }
 
@@ -669,8 +682,45 @@ footer p {
 }
 
 @media (max-width: 575.98px) {
+  .row-flex {
+    display: block;
+  }
+
+  .alternative__main__page {
+    display: none;
+  }
+
+  .nav__bar {
+    display: none;
+  }
+
+  #navbarToggleExternalContent {
+    display: block;
+  }
+
   .nav__bar--item {
     display: none;
+  }
+
+  .p__container {
+    margin: 0 0.7rem;
+    padding: 0.5rem;
+  }
+
+  .grid__container {
+    grid-template-columns: repeat(1, 30rem);
+  }
+
+  .mapouter {
+    display: none !important;
+  }
+
+  .contactos__info p {
+    text-align: left;
+  }
+
+  .form-control {
+    font-size: 1rem;
   }
 }
 

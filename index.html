@@ -82,6 +82,9 @@
           </li>
         </ul>
       </nav>
+
+      
+
       <div class="row-flex">
         <div class="main__page col-flex-full">
           <h1 class="main__page--title">Óptica Gomes</h1>
@@ -515,7 +518,7 @@
       </h2>
 
       <div class="row form__container center">
-        <form action="index.php" method="POST">
+        <form action="./Resources/php/postedmessage.php" method="post">
           <div class="mb-3 justify-content-center">
               <label for="formGroupExampleInput" class="form-label">Nome</label>
               <input type="text" name="nome" class="center form-control" id="formGroupExampleInput" placeholder="Coloque o seu nome">
@@ -533,7 +536,7 @@
               <textarea class="center form-control" name="mensagem" placeholder="A sua mensagem" id="floatingTextarea">A sua mensagem</textarea>
               
           </div>
-          <button class="margin__bottom--large btn btn-primary" type="submit">
+          <button class="margin__bottom--large button button-full" type="submit">
               <b>Submit<b>
           </button>
         </form>
