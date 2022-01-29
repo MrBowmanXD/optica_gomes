@@ -41,11 +41,20 @@ header {
   z-index: 100;
 }
 
-.nav__bar__container img {
-  display: inline-block;
-  width: 5rem;
-  height: 5rem;
-  margin-top: 0.5rem;
+.nav__bar__container .logo__text a {
+  display: block;
+  text-decoration: none;
+}
+
+.logo__text--title {
+  text-align: left;
+}
+
+.logo__text--title strong {
+  
+  
+  color: black;
+  
 }
 
 .left {
@@ -53,7 +62,7 @@ header {
 }
 
 .nav__bar__container {
-  text-align: right;
+  text-align: center;
   margin: 0.5rem;
   z-index: 1;
 }
