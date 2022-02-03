@@ -31,6 +31,10 @@ header {
   transition: all 0.5s;
 }
 
+.hidden-desktop {
+  display: none;
+}
+
 .nav__bar {
   position: fixed;
   top: 0;
@@ -690,10 +694,25 @@ footer p {
   border: none;
 }
 
+.fa-star {
+  color: #FDCC0D;
+}
+
+.carousel-item img { 
+  height: 500px;
+  width: 500px;
+}
+
 @media (max-width: 575.98px) {
   .row-flex {
     display: block;
   }
+
+  .carousel-item img { 
+    height: 250px;
+    width: 500px;
+  }
+  
 
   .alternative__main__page {
     display: none;
@@ -724,18 +743,28 @@ footer p {
     display: none !important;
   }
 
+  .galeria__class {
+    display: none;
+  }
+
   .contactos__info p {
     text-align: left;
+  }
+
+  .footer-nav li a {
+    font-size: 1.2rem;
   }
 
   .form-control {
     font-size: 1rem;
   }
+
+  .hidden-desktop {
+    display: block;
+  }
 }
 
-.fa-star {
-  color: #FDCC0D;
-}
+
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
