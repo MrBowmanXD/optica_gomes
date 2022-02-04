@@ -252,6 +252,26 @@ header {
   margin-left: 7.5rem;
 }
 
+.cancel {
+  cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  margin-right: 2.5rem;
+  z-index: 1;
+  
+}
+
+.menu-icon {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  font-size: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
 .Sobrenos__class {
   background-color: #fff;
 }
@@ -764,6 +784,9 @@ footer p {
   }
 }
 
+.none {
+  display: none !important;
+}
 
 
 /* Small devices (landscape phones, less than 768px) */
