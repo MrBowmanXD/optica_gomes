@@ -263,6 +263,25 @@ header {
   
 }
 
+#navbar nav ul {
+  background-color: white;
+}
+
+#navbar nav ul li {
+  list-style-type: none;
+}
+
+
+#navbar nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.fa-times-circle {
+  font-size: 3rem;
+}
+
 .menu-icon {
   padding: 2rem;
   background-color: white;
