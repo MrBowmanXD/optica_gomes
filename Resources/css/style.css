@@ -506,7 +506,7 @@ p {
 
 /* SLIDER */
 .slider {
-  max-width: 100rem;
+  max-width: 1000rem;
   height: 50rem;
   margin: 0 auto;
   position: relative;
@@ -597,8 +597,8 @@ p {
 
 .carousel-item-new img {
   box-shadow: 0.5rem 0.5rem 0.7rem 0.2rem rgba(0, 0, 0, 0.6);
-  width: 50rem;
-  height: 30rem;
+  width: 60%;
+  height: 80%;
 }
 
 .carousel-item {
