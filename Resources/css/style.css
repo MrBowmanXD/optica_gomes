@@ -55,10 +55,10 @@ header {
 }
 
 .logo__text--title strong {
-  
-  
+
+
   color: black;
-  
+
 }
 
 .left {
@@ -260,7 +260,7 @@ header {
   position: fixed;
   margin-right: 2.5rem;
   z-index: 1;
-  
+
 }
 
 #navbar nav ul {
@@ -828,7 +828,7 @@ footer p {
   color: #FDCC0D;
 }
 
-.carousel-item img { 
+.carousel-item img {
   height: 500px;
   width: 500px;
 }
@@ -838,11 +838,11 @@ footer p {
     display: block;
   }
 
-  .carousel-item img { 
+  .carousel-item img {
     height: 250px;
     width: 500px;
   }
-  
+
 
   .alternative__main__page {
     display: none;
@@ -915,7 +915,7 @@ footer p {
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  
+
 }
 
 /* Large devices (desktops, less than 1200px) */
